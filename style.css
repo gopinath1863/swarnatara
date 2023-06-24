@@ -1,0 +1,1702 @@
+@charset "utf-8";
+@import url("reset.css");
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body{
+	background-color: white;
+}
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+#headersection{
+	width: 100%;
+	height: 200px;
+	background-color: #323232;
+	position: relative;
+	
+}
+.headermain{
+	width: 1300px;
+	height: 200px;
+	
+	position: absolute;
+	margin-left: 100px;
+}
+.headerlogo{
+	width: 290px;
+	height: 100px;
+	
+	position: absolute;
+	margin-left: 500px;
+}
+.headerlogin{
+	width: 200px;
+	height: 30px;
+	
+	position: absolute;
+	margin-top: 110px;
+	padding: 5px;
+}
+.headerlogin h1 a{
+	font-size: 15px;
+	color: #8a7f4d;
+	text-decoration: none;
+}
+.headerlogin img{
+	margin-left: 220px;
+	margin-top: -20px; 
+}
+.headerlogin1{
+	width: 150px;
+	height: 30px;
+
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 250px;
+	padding: 5px;
+}
+.headerlogin1 h1 a{
+	font-size: 15px;
+	color: #8a7f4d;
+	text-decoration: none;
+	text-align: center;
+	
+}
+.headerloginimg{
+	width: 30px;
+	height: 25px;
+	margin-left: 220px;
+	margin-top: 110px;
+}
+.headersearch{
+	width: 390px;
+	height: 40px;
+	border: 2px solid black;
+	background-color: white;
+	margin-left: 775px;
+	margin-top: -30px;
+	position: relative;
+}
+.headersearch h1{
+	font-size: 15px;
+	color: black;
+	margin-top: 10px;
+}
+.headersearch img{
+    margin-left: 120px;
+	margin-top: -10px;
+	position: absolute;
+}
+.headersearch1{
+	width: 205px;
+	height: 40px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: -27px;
+	margin-left: 175px;
+}
+.headersearch1 h1{
+	font-size: 15px;
+	color: black;
+	margin-top: 13px;
+}
+.searchbar{
+	width: 40px;
+	height: 40px;
+	background-color: #e5ae00;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 355px;
+	margin-top: -27px;
+}
+.searchbar img{
+	position: absolute;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.cartbox{
+	 height: 40px;
+  width: 105px;
+	background-color: #e5ae00;
+  border: 2px solid white;
+  border-radius: 10%;
+	float: right;
+	margin-top: -45px;
+	margin-left: -50px;
+	position: relative;
+}
+.cartbox img{
+	margin-left: 5px;
+	margin-top: 5px;
+	position: absolute;
+}
+.cartbox h1{
+	position: absolute;
+	margin-left: 55px;
+	margin-top: 10px;
+	font-size: 15px;
+	color: black;
+}
+#menusection{
+	width: 1300px;
+	height: 30px;
+	position: absolute;
+	
+	margin-top: 10px;
+}
+.mainmenu{
+	width: 1300px;
+	list-style: none;
+}
+.mainmenu li{
+	position: relative;
+	float: left;
+	line-height: 40px;
+	padding-left: 10px;
+	
+}
+.mainmenu li a{
+	color:#8a7f4d;
+font-size:15px; 
+text-transform:capitalize;
+display:block;
+text-decoration:none;
+	
+}
+.mainmenu li a:hover {
+	text-decoration: none;
+}
+.mainmenu li:hover .mainsubmenu{
+	display: block;
+}
+.mainsubmenu{
+	position: absolute;
+	display: none;
+	width:250px;
+	padding: 10px;
+	background-color: white;
+}
+.mainsubmenu ul li{
+	width: 250px;
+	
+}
+.mainsubmenu ul li a{
+	font-size: 15px;
+	color: black;
+	line-height: 40px;
+}
+.mainsubmenu ul li a:hover{
+	font-size: 18px;
+	color: #071D88;
+}
+#bannersection{
+	width: 1300px;
+	height: 650px;
+	margin: 0 auto;
+	border: 3px solid black;
+}
+#trending{
+	width: 1300px;
+	height: 1350px;
+	
+	margin: 0 auto;
+}
+.trendingtxt{
+	width: 250px;
+	height: 90px;
+	border-radius: 15%;
+	box-shadow: 3px 3px 5px 5px;
+	border: 3px solid black;
+	margin-left: 465px;
+}
+.trendingtxt h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 20px;
+}
+.trendingbox{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: 50px;
+}
+
+.trendingmini{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.trendingmini h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.trendingminibox{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.trendingminibox h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.trendingboxtxt{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.trendingboxtxt a{
+	text-align: center;
+	color: black;
+}
+.trendingboximg{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.addbox0{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: 320px;
+	border-radius: 15%;
+}
+.addbox0 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox0 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.trendingbox1{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: -310px;
+	margin-left: 300px;
+}
+
+.trendingmini1{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.trendingmini1 h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.trendingminibox1{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.trendingminibox1 h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup1{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown1{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart1{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart1 img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd1{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd1 h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.trendingboxtxt1{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.trendingboxtxt1 a{
+	text-align: center;
+	color: black;
+}
+.trendingboximg1{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.addbox01{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: -40px;
+	border-radius: 15%;
+	margin-left: 300px;
+}
+.addbox01 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox01 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.trendingbox2{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: 120px;
+	
+}
+
+.trendingmini2{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.trendingmini2 h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.trendingminibox2{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.trendingminibox2 h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup2{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown2{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart2{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart2 img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd2{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd2 h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.trendingboxtxt2{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.trendingboxtxt2 a{
+	text-align: center;
+	color: black;
+}
+.trendingboximg2{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.addbox02{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: 390px;
+	border-radius: 15%;
+	
+}
+.addbox02 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox02 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.trendingbox3{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: -300px;
+	margin-left: 300px;
+	
+}
+
+.trendingmini3{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.trendingmini3 h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.trendingminibox3{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.trendingminibox3 h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup3{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown3{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart3{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart3 img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd3{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd3 h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.trendingboxtxt3{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.trendingboxtxt3 a{
+	text-align: center;
+	color: black;
+}
+.trendingboximg3{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.addbox03{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: -30px;
+	border-radius: 15%;
+	margin-left: 300px;
+	
+}
+.addbox03 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox03 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.trendingbox4{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: 100px;
+	
+	
+}
+
+.trendingmini4{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.trendingmini4 h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.trendingminibox4{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.trendingminibox4 h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup4{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown4{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart4{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart4 img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd4{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd4 h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.trendingboxtxt4{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.trendingboxtxt4 a{
+	text-align: center;
+	color: black;
+}
+.trendingboximg4{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.addbox04{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: 370px;
+	border-radius: 15%;
+	
+	
+}
+.addbox04 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox04 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.trendingimg{
+	width: 700px;
+	height: 305px;
+	float: right;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -1140px;
+}
+.trendingimg1{
+	width: 700px;
+	height: 305px;
+	float: right;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -710px;
+}
+.trendingimg2{
+	width: 950px;
+	height: 335px;
+	float: right;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: -310px;
+}
+#combooffer{
+	width: 1300px;
+	height: 1450px;
+	
+	margin: 0 auto;
+}
+.combooffertxt{
+	width: 350px;
+	height: 100px;
+	border-radius: 15%;
+	box-shadow: 3px 3px 5px 5px;
+	border: 3px solid black;
+	margin-left: 450px;
+}
+.combooffertxt h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 20px;
+}
+.comboofferbox{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: 100px;
+	margin-left: 800px;
+	
+	
+}
+
+.combooffermini{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.combooffermini h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.comboofferminibox{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.comboofferminibox h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.comboofferboxtxt{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.comboofferboxtxt a{
+	text-align: center;
+	color: black;
+}
+.comboofferboximg{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.addbox{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: 370px;
+	border-radius: 15%;
+	margin-left: 800px;
+	
+	
+}
+.addbox h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.addbox1{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 1095px;
+	border-radius: 15%;
+	
+}
+.addbox1 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox1 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.comboofferbox1{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: -300px;
+	margin-left: 300px;
+	float: right;
+	
+	
+}
+
+.combooffermini1{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.combooffermini1 h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.comboofferminibox1{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.comboofferminibox1 h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup1{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown1{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart1{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart1 img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd1{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd1 h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.comboofferboxtxt1{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.comboofferboxtxt1 a{
+	text-align: center;
+	color: black;
+}
+.comboofferboximg1{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.comboofferbox2{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: 100px;
+	margin-left: 800px;
+	
+	
+}
+
+.combooffermini2{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.combooffermini2 h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.comboofferminibox2{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.comboofferminibox2 h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup2{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown2{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart2{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart2 img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd2{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd2 h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.comboofferboxtxt2{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.comboofferboxtxt2 a{
+	text-align: center;
+	color: black;
+}
+.comboofferboximg2{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.addbox2{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: 370px;
+	border-radius: 15%;
+	margin-left: 800px;
+	
+	
+}
+.addbox2 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox2 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.addbox3{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 1095px;
+	border-radius: 15%;
+	
+}
+.addbox3 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox3 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.comboofferbox3{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: -300px;
+	margin-left: 300px;
+	float: right;
+	
+	
+}
+
+.combooffermini3{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.combooffermini3 h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.comboofferminibox3{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.comboofferminibox3 h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup3{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown3{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart3{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart3 img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd3{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd3 h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.comboofferboxtxt3{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.comboofferboxtxt3 a{
+	text-align: center;
+	color: black;
+}
+.comboofferboximg3{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.addbox4{
+	width: 210px;
+	height: 100px;
+	background-color: #e5ae00;
+	position: absolute;
+	margin-top: 370px;
+	margin-left: 1095px;
+	border-radius: 15%;
+	
+}
+.addbox4 h1{
+	margin-top: -30px;
+	margin-left: 50px;
+	position: absolute;
+	font-size: 15px;
+	color: #93080A;
+}
+.addbox4 img{
+	margin-top: 30px;
+	margin-left:10px;
+	padding-right:  30px;
+}
+.comboofferbox4{
+	width: 200px;
+	height: 300px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 2px 2px 3px 3px; 
+	position: relative;
+	background-color: white;
+	margin-top: 100px;
+	margin-left: 1095px;
+	
+	
+}
+
+.combooffermini4{
+	position: absolute;
+	width: 40px;
+	height: 35px;
+	background-color: #F7BEBF;
+	margin-left: 10px;
+	margin-top: 230px;
+	border: 1px solid black;
+}
+.combooffermini4 h1{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	color: black;
+}
+.comboofferminibox4{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+.comboofferminibox4 h1{
+	font-size: 15px;
+	margin-left: 2px;
+	margin-top: 10px;
+	color: black;
+}
+.triangleup4{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom:15px solid #000000;
+	margin-left: 20px;
+	margin-top: -22px;
+}
+.triangledown4{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 15px solid #000000;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.cart4{
+	width: 40px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 230px;
+	background-color: #e5ae00;
+}
+.cart4 img{
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.cartadd4{
+	width: 50px;
+	height: 35px;
+	border: 1px solid black;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 230px;
+	background-color: #323232;
+}
+.cartadd4 h1{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.comboofferboxtxt4{
+	position: absolute;
+	width: 170px;
+	height: 50px;
+	margin-top: 175px;
+	margin-left: 20px;
+}
+.comboofferboxtxt4 a{
+	text-align: center;
+	color: black;
+}
+.comboofferboximg4{
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	margin-top: -170px;
+	margin-left: 20px;
+}
+.comboofferimg{
+	width: 700px;
+	height: 305px;
+	float:left;
+	position: absolute;
+	margin-top: -1100px;
+}
+.comboofferimg1{
+	width: 700px;
+	height: 305px;
+	float:left;
+	position: absolute;
+	margin-top: -700px;
+}
+.comboofferimg2{
+	width: 950px;
+	height: 335px;
+	float:left;
+	position: absolute;
+	margin-top: -300px;
+}
+#footer{
+	width: 100%;
+	height: 600px;
+	background-color: #f1f8f0;
+	position: relative;
+	
+}
+.footertext{
+	margin-left: 100px;
+	position: absolute;
+	width: 260px;
+	height: 290px;
+	
+}
+.footertext h1{
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.footertext li a {
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 40px;
+	color: black;
+}
+.footertext1{
+	margin-left: 400px;
+	position: absolute;
+	width: 300px;
+	height: 290px;
+	
+}
+.footertext1 h1{
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.footertext1 li a {
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 40px;
+	color: black;
+}
+.footertext2{
+	margin-left: 740px;
+	position: absolute;
+	width: 400px;
+	height: 290px;
+	
+}
+.footertext2 h1{
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.footertext2 a{
+	font-size: 15px;
+	color: black;
+	line-height: 30px;
+}
+.footerimg{
+	width: 210px;
+	height: 100px;
+	
+	margin-left: 1200px;
+}
+.footerimg h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+.footerimg img{
+	margin-top: 10px;
+}
+.footertxt{
+	width: 250px;
+	height: 100px;
+	border-radius: 15%;
+	box-shadow: 3px 3px 5px 5px;
+	border: 3px solid black;
+	margin-left: 100px;
+	margin-top: 200px;
+}
+.footertxt h1{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 20px;
+}
+.footerimg1{
+	width: 1300px;
+	height: 100px;
+	margin-left: 100px;
+	
+}
+.footerimg1 img{
+	margin-top: 50px;
+}
+.footerplay{
+	width: 500px;
+	height: 100px;
+	
+	float: right;
+	margin-top: -100px;
+	margin-right: 100px;
+}
+.footerplay h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+.footerplay img{
+	margin-top: 10px;
+}
